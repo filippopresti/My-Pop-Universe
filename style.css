@@ -7,10 +7,6 @@ body {
     font-family: 'Roboto';
     margin: 1.25rem;
     background-color: #5FBDC4;
-
-    * {
-            color: #000000;
-        }
 }
 
 .header {
@@ -80,12 +76,6 @@ a {
     margin-right: 0.625rem;
     padding: 0.3rem;
     font-size: 1rem;
-    color: black;
-    /* Text color */
-    background-color: #000000;
-    /* Background color */
-    border-color: #000000;
-    /* Border color */
 }
 
 /* Style for the selected button */
@@ -94,6 +84,10 @@ a {
     border: none;
     border-radius: 0.3rem 0.3rem 0 0;
     padding: 0.3rem 1.25rem;
+    color: #F92B85;
+}
+
+.selected i {
     color: #F92B85;
 }
 
@@ -175,6 +169,12 @@ i {
         font-size: 12px;
     }
 
+    button {
+        * {
+                color: #000000;
+            }
+    }
+
     #albumCards {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -184,7 +184,6 @@ i {
         margin: 0.7rem auto;
     }
 
-    
     .container:active .overlay {
         opacity: 1;
     }
