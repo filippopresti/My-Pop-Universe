@@ -168,11 +168,6 @@ i {
     html {
         font-size: 12px;
     }
-
-    body {
-        
-        padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-    }
     
     #myBtnContainer .selected {
             * {
@@ -184,8 +179,6 @@ i {
         * {
                 color: #000000;
             }
-        display: flex;
-        justify-content: space-evenly;
     }
 
     
