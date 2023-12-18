@@ -168,12 +168,20 @@ i {
     html {
         font-size: 12px;
     }
+    
+    #myBtnContainer .selected {
+            * {
+                color: #F92B85 !important;
+            }
+    }
 
     #myBtnContainer {
         * {
-                color: #000000!important;
+                color: #000000;
             }
     }
+
+    
 
     #albumCards {
         grid-template-columns: repeat(1, 1fr);
