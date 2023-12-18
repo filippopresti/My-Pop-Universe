@@ -62,9 +62,9 @@ function displayCards(data) {
         for (var i = 0; i < 5; i++) {
             const icon = document.createElement('i');
             if (i < row.rating) {
-                icon.className = 'fa fa-solid fa-heart checked';
+                icon.className = 'fas fa-solid fa-heart checked';
             } else {
-                icon.className = 'fa fa-solid fa-heart';
+                icon.className = 'fas fa-solid fa-heart';
             }
             albumRating.append(icon);
         }
@@ -105,6 +105,9 @@ function selectButton(button) {
     // Remove the 'selected' class from all buttons
     const buttons = document.querySelectorAll('.btn');
     buttons.forEach(btn => btn.classList.remove('selected'));
+    // const icons = document.querySelectorAll('.fas');
+    // console.log(icons);
+    // icons.forEach(icon => icon.classList.add('white'));
 
     // Add the 'selected' class to the clicked button
     button.classList.add('selected');

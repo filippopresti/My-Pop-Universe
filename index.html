@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Include the CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <!-- Include the CSS file -->
     <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -25,14 +25,15 @@
     
     <!-- Control buttons -->
     <div id="myBtnContainer">
+        
         <!-- Button to show all albums -->
         <button class="btn selected" onclick="selectButton(this), filterSelection('album')"> Show all</button>
         <!-- Buttons to show any album with a specif rating -->
-        <button class="btn" onclick="selectButton(this), filterSelection('rating1')"> &#10084;x1</button>
-        <button class="btn" onclick="selectButton(this), filterSelection('rating2')"> &#10084;x2</button>
-        <button class="btn" onclick="selectButton(this), filterSelection('rating3')"> &#10084;x3</button>
-        <button class="btn" onclick="selectButton(this), filterSelection('rating4')"> &#10084;x4</button>
-        <button class="btn" onclick="selectButton(this), filterSelection('rating5')"> &#10084;x5</button>
+        <button class="btn" onclick="selectButton(this), filterSelection('rating1')"> <i class="fas fa-solid fa-heart"></i>x1</button>
+        <button class="btn" onclick="selectButton(this), filterSelection('rating2')"> <i class="fas fa-solid fa-heart"></i>x2</button>
+        <button class="btn" onclick="selectButton(this), filterSelection('rating3')"> <i class="fas fa-solid fa-heart"></i>x3</button>
+        <button class="btn" onclick="selectButton(this), filterSelection('rating4')"> <i class="fas fa-solid fa-heart"></i>x4</button>
+        <button class="btn" onclick="selectButton(this), filterSelection('rating5')"> <i class="fas fa-solid fa-heart"></i>x5</button>
         <button class="btn spotifyBtn" onclick="selectButton(this), filterSelection('rating0')"> Spotify Playlist</button>
 
     </div>

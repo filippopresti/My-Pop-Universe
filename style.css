@@ -59,7 +59,7 @@ a {
 }
 
 .checked {
-    color: #F92B85;
+    color: #F92B85!important;
 }
 
 #myBtnContainer {
@@ -134,6 +134,10 @@ a {
 
 iframe {
     display: block;
+}
+
+i {
+    padding-right: 1px;
 }
 
 @media all and (max-width: 1465px) {
