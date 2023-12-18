@@ -105,9 +105,6 @@ function selectButton(button) {
     // Remove the 'selected' class from all buttons
     const buttons = document.querySelectorAll('.btn');
     buttons.forEach(btn => btn.classList.remove('selected'));
-    // const icons = document.querySelectorAll('.fas');
-    // console.log(icons);
-    // icons.forEach(icon => icon.classList.add('white'));
 
     // Add the 'selected' class to the clicked button
     button.classList.add('selected');
@@ -122,7 +119,7 @@ function selectButton(button) {
     }
 }
 
-
+// Reduce size of heading once you start scrolling down
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
